@@ -1,0 +1,1 @@
+whisperbot is a telegram bot that implements openai whisper for transcribing or translating voice notes and audio files.
