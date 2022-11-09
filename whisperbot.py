@@ -9,8 +9,8 @@ model = whisper.load_model("medium.en")
 
 @bot.message_handler(commands=['start', 'hello', 'hi'])
 def hello_reply(message):
-    bot.send_message(.
-                     message.chat.id, "Hello, my name is Whisper Bot, and I'm an implementation of Open AI Whisper. Send me a voice message to see my magic.")
+    bot.send_message(
+        message.chat.id, "Hello, my name is Whisper Bot, and I'm an implementation of Open AI Whisper. Send me a voice message to see my magic.")
 
 
 @bot.message_handler(content_types=['voice'])
