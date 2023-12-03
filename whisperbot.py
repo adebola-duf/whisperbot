@@ -26,7 +26,7 @@ class MyStates(StatesGroup):
 
 
 # whisper intitialization
-model = whisper.load_model("medium")
+model = whisper.load_model("small")
 languages: dict = json.loads(
     Path("/content/drive/MyDrive/languages.json").read_text())
 language_list: list = [x + "\n" for x in languages.keys()]
