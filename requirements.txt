@@ -1,2 +1,5 @@
-git+https://github.com/openai/whisper.git
-pyTelegramBotAPI
+openai-whisper==20231117
+pyTelegramBotAPI==4.14.0
+uvicorn==0.23.2
+fastapi==0.103.1
+python-dotenv==1.0.0
